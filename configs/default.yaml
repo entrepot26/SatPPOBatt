@@ -1,0 +1,98 @@
+# 参考论文设置
+project_name:
+
+# 15.1 星座与轨迹
+num_orbits:
+sats_per_orbit:
+slot_len:
+trace_csv_path:
+
+# 15.2 eval轮次
+eval_rounds:
+
+# 15.3 模型
+model_name:
+
+model_bits:
+
+
+
+# 15.4 计算
+cpu_freq_max:
+cpu_cycles_per_image:
+
+#
+kappa:
+
+# 15.5 地面聚合
+ground_cpu_cycles_per_bit:
+ground_cpu_freq:
+# 15.6 电池
+battery_capacity:
+solar_power:
+
+degrade_k1:
+degrade_k2:
+degrade_k3:
+degrade_k4:
+degrade_k5:
+
+# 15.7 通信
+bandwidth_isl:
+bandwidth_ul:
+bandwidth_dl:
+channel_const:
+tx_power_max:
+tx_power_isl_fixed:
+propagation_speed_mps:
+distance_ground_station_sat_km:
+distance_satellite_satellite_km:
+
+# 15.8 PPO
+reward_w1:
+reward_w2:
+reward_w3:
+reward_w4:
+reward_w5:
+reward_w6:
+reward_w7:
+
+total_episodes:
+rollout_size:
+simulator_steps_per_episode:
+gamma:
+gae_lambda:
+clip_ratio:
+actor_lr:
+critic_lr:
+ppo_epochs:
+mini_batch_size:
+entropy_coef:
+value_coef:
+action_min_ratio:
+action_max_ratio:
+eval_enable_sunlit_mask:
+
+# 附加实验参数
+reward_norm_utility_ref:
+reward_norm_round_time_ref:
+reward_norm_late_ref:
+reward_norm_best_dod_ref:
+reward_norm_energy_consumed_ref:
+reward_norm_battery_degradation_ref:
+results_root:
+partitions_dir:
+dirichlet_alpha:
+partition_seed:
+data_total_sample:
+data_partition_min_images:
+data_partition_num_classes:
+state_local_images_norm:
+seed:
+device:
+hidden_sizes:
+ideal_dod:
+min_battery_warning:
+steps_per_slot_trace:
+step4_energy_power_sensitivity:
+step4_energy_reference_ratio:
